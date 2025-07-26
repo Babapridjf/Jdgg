@@ -73,3 +73,7 @@ jobs:
         with:
           name: cloudflare-rdp-link
           path: link.txt
+          - name: Sleep for 6 hours to keep the tunnel alive
+        run: |
+          echo "RDP oturumu 6 saat açık kalacak. Uyu bakalım 😴"
+          sleep 21600
